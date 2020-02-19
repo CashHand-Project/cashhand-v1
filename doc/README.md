@@ -41,7 +41,7 @@ The following are developer notes on how to build CashHand on your native platfo
 
 Development
 ---------------------
-The CashHand repo's [root README](https://https://github.com/Cashhand/cashhand/blob/master/README.md) contains relevant information on the development process and automated testing.
+The CashHand repo's [root README](https://github.com/Cashhand/cashhand/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)

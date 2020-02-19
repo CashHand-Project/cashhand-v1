@@ -24,7 +24,7 @@ Build-Depends: debhelper,
 Standards-Version: 3.9.2
 Homepage: http://copico.io
 Vcs-Git: git://https://github.com/Cashhand/cashhand.git
-Vcs-Browser: https://https://github.com/Cashhand/cashhand
+Vcs-Browser: https://github.com/Cashhand/cashhand
 
 Package: cashhandd
 Architecture: any

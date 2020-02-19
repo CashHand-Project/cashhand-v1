@@ -5,7 +5,7 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 1.2.4
+!define VERSION 1.0.0
 !define COMPANY "CashHand Core project"
 !define URL https://www.cashhand.com
 

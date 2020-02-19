@@ -1,13 +1,13 @@
 CashHand Core version 2.2.1 is now available from:
 
-  <https://https://github.com/Cashhand/cashhand/releases>
+  <https://github.com/Cashhand/cashhand/releases>
 
 This is a new minor version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://https://github.com/Cashhand/cashhand/issues>
+  <https://github.com/Cashhand/cashhand/issues>
 
 Compatibility
 ==============

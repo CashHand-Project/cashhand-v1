@@ -28,7 +28,7 @@ packages:
 - "python-setuptools"
 - "fonts-tuffy"
 remotes:
-- "url": "https://https://github.com/Cashhand/cashhand.git"
+- "url": "https://github.com/Cashhand/cashhand.git"
   "dir": "cashhand"
 files:
 - "MacOSX10.11.sdk.tar.gz"

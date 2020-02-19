@@ -44,7 +44,7 @@ Instructions: Homebrew
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone https://https://github.com/Cashhand/cashhand.git
+        git clone https://github.com/Cashhand/cashhand.git
         cd CashHand
 
 2.  Build cashhandd:

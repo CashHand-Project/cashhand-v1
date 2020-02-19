@@ -22,7 +22,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://https://github.com/Cashhand/cashhand.git"
+- "url": "https://github.com/Cashhand/cashhand.git"
   "dir": "cashhand"
 files: []
 script: |

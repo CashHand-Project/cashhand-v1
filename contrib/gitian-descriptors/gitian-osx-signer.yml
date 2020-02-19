@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://https://github.com/Cashhand/cashhand-detached-sigs.git"
+- "url": "https://github.com/Cashhand/cashhand-detached-sigs.git"
   "dir": "signature"
 files:
 - "cashhand-osx-unsigned.tar.gz"
