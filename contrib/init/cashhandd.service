@@ -1,0 +1,26 @@
+[Unit]
+Description=Cashhand's distributed currency daemon
+After=network.target
+
+[Service]
+User=cashhand
+Group=cashhand
+
+Type=forking
+PIDFile=/var/lib/cashhandd/cashhandd.pid
+
+ExecStart=/usr/bin/cashhandd -daemon -pid=/var/lib/cashhandd/cashhandd.pid \
+          -conf=/etc/cashhand/cashhand.conf -datadir=/var/lib/cashhandd
+
+ExecStop=-/usr/bin/cashhand-cli -conf=/etc/cashhand/cashhand.conf \
+         -datadir=/var/lib/cashhandd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

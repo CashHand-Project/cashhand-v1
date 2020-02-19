@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Cashhand
+Comment=Cashhand P2P Cryptocurrency
+Comment[fr]=Cashhand, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Cashhand, eşten eşe kriptografik sanal para birimi
+Exec=cashhand-qt %u
+Terminal=false
+Type=Application
+Icon=cashhand128
+MimeType=x-scheme-handler/cashhand;
+Categories=Office;Finance;
