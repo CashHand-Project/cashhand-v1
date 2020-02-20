@@ -3,7 +3,7 @@ CashHand Core
 
 Setup
 ---------------------
-[CashHand Core](http://cashhand.io/wallet) is the original CashHand client and it builds the backbone of the network. However, it downloads and stores the entire history of CashHand transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[CashHand Core](http://cashhand.info/wallet) is the original CashHand client and it builds the backbone of the network. However, it downloads and stores the entire history of CashHand transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
@@ -28,8 +28,8 @@ Drag CashHand-Qt to your applications folder, and then run CashHand-Qt.
 
 * See the documentation at the [CashHand Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=2186812.0) or on the [CashHand Forum](http://forum.cashhand.io/).
-* Join one of our Slack groups [CashHand Slack Groups](https://cashhand.io/slack-logins/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=2186812.0) or on the [CashHand Forum](http://forum.cashhand.info/).
+* Join one of our Slack groups [CashHand Slack Groups](https://cashhand.info/slack-logins/).
 
 Building
 ---------------------
@@ -55,7 +55,7 @@ The CashHand repo's [root README](https://github.com/Cashhand/cashhand/blob/mast
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=2186812.0) or the [CashHand](http://forum.cashhand.io/) forum.
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=2186812.0) or the [CashHand](http://forum.cashhand.info/) forum.
 * Join the [CashHand-Dev](https://cashhand-dev.slack.com/) Slack group ([Sign-Up](https://cashhand.herokuapp.com/)).
 
 ### Miscellaneous

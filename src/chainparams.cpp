@@ -118,8 +118,8 @@ public:
         assert(hashGenesisBlock == uint256("0x00000c545586f43b05943016ce7fa147f12d3184218a8ac69a19dbab3d177fa1"));
         assert(genesis.hashMerkleRoot == uint256("0xc8cfe5df1be3bb27ce2f2a471a73b64b522e28f8161e1a993b52d6f4844f4229"));
 
-        vSeeds.push_back(CDNSSeedData("seednode1", "node1.cashhand.io"));
-        vSeeds.push_back(CDNSSeedData("seednode2", "node2.cashhand.io"));
+        vSeeds.push_back(CDNSSeedData("cashhand.info", "node1.cashhand.info"));
+        vSeeds.push_back(CDNSSeedData("cashhand.info", "node2.cashhand.info"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 28);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 10);
@@ -182,9 +182,9 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("testnode1", "node1.cashhand.io"));
-		
-		
+        vSeeds.push_back(CDNSSeedData("cashhand.info", "testnode1.cashhand.info"));
+
+
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet cashhand addresses start with 'x' or 'y'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet cashhand script addresses start with '8' or '9'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)

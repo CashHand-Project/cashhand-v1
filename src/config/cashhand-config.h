@@ -274,7 +274,7 @@
 #define LT_OBJDIR ".libs/"
 
 /* Define to the address where bug reports for this package should be sent. */
-#define PACKAGE_BUGREPORT "www.cashhand.io"
+#define PACKAGE_BUGREPORT "www.cashhand.info"
 
 /* Define to the full name of this package. */
 #define PACKAGE_NAME "CashHand Core"
