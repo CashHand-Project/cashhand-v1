@@ -1,5 +1,5 @@
 ---
-name: "cashhand-linux-1.0.0"
+name: "cashhand-linux-1.0.1"
 enable_cache: true
 suites:
 - "trusty"
