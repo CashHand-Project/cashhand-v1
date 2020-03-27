@@ -121,6 +121,9 @@ public:
         vSeeds.push_back(CDNSSeedData("nodesforall.com", "node1.nodesforall.com"));
         vSeeds.push_back(CDNSSeedData("nodesforall.com", "node2.nodesforall.com"));
 	vSeeds.push_back(CDNSSeedData("nodesforall.com", "node3.nodesforall.com"));
+	vSeeds.push_back(CDNSSeedData("nodesforall.com", "node4.nodesforall.com"));
+        vSeeds.push_back(CDNSSeedData("nodesforall.com", "node5.nodesforall.com"));
+	vSeeds.push_back(CDNSSeedData("nodesforall.com", "node6.nodesforall.com"));
 
 
 
