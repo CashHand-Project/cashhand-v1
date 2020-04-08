@@ -102,7 +102,7 @@ BITCOIN_CORE_H = \
   obfuscation-relay.h \
   db.h \
   eccryptoverify.h \
-  ecwrapper.h \  
+  ecwrapper.h \
   hash.h \
   prevector.h \
   hashblock.h \
@@ -260,7 +260,7 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/common.h \
   crypto/scrypt.cpp \
   crypto/scrypt.h \
-  crypto/hmac_sha256.cpp \  
+  crypto/hmac_sha256.cpp \
   crypto/hmac_sha256.h \
   crypto/hmac_sha512.cpp \
   crypto/hmac_sha512.h \

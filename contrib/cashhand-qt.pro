@@ -647,18 +647,25 @@ SOURCES += src/activemasternode.cpp \
 RESOURCES += src/qt/cashhand.qrc src/qt/cashhand_locale.qrc
 
 TRANSLATIONS += src/qt/locale/cashhand_bg.ts \
+                src/qt/locale/cashhand_ca.ts \
+                src/qt/locale/cashhand_cs.ts \
+                src/qt/locale/cashhand_da.ts \
                 src/qt/locale/cashhand_de.ts \
                 src/qt/locale/cashhand_en.ts \
                 src/qt/locale/cashhand_es.ts \
                 src/qt/locale/cashhand_fi.ts \
-                src/qt/locale/cashhand_fr.ts \
+                src/qt/locale/cashhand_fr_FR.ts \
                 src/qt/locale/cashhand_it.ts \
                 src/qt/locale/cashhand_ja.ts \
+                src/qt/locale/cashhand_ko_KR.ts \
+                src/qt/locale/cashhand_nl.ts \
                 src/qt/locale/cashhand_pl.ts \
+                src/qt/locale/cashhand_pt_BR.ts \
                 src/qt/locale/cashhand_pt.ts \
+                src/qt/locale/cashhand_ro_RO.ts \
                 src/qt/locale/cashhand_ru.ts \
                 src/qt/locale/cashhand_sk.ts \
                 src/qt/locale/cashhand_sv.ts \
-                src/qt/locale/cashhand_vi.ts \
                 src/qt/locale/cashhand_zh_CN.ts \
                 src/qt/locale/cashhand_zh_TW.ts
+

@@ -456,16 +456,21 @@ am__qt_libbitcoinqt_a_SOURCES_DIST = qt/bitcoinaddressvalidator.cpp \
 	qt/forms/sendcoinsdialog.ui qt/forms/sendcoinsentry.ui \
 	qt/forms/signverifymessagedialog.ui \
 	qt/forms/transactiondescdialog.ui qt/cashhand.qrc \
-	qt/cashhand_locale.qrc qt/locale/cashhand_ca.ts \
+	qt/cashhand_locale.qrc qt/locale/cashhand_bg.ts \
+	qt/locale/cashhand_ca.ts qt/locale/cashhand_cs.ts \
 	qt/locale/cashhand_da.ts qt/locale/cashhand_de.ts \
-	qt/locale/cashhand_en.ts qt/locale/cashhand_en_US.ts \
-	qt/locale/cashhand_es.ts qt/locale/cashhand_fr_FR.ts \
+	qt/locale/cashhand_en.ts qt/locale/cashhand_es.ts \
+	qt/locale/cashhand_fi.ts qt/locale/cashhand_fr_FR.ts \
 	qt/locale/cashhand_it.ts qt/locale/cashhand_ja.ts \
+	qt/locale/cashhand_ko_KR.ts qt/locale/cashhand_nl.ts \
+	qt/locale/cashhand_pl.ts qt/locale/cashhand_pt_BR.ts \
 	qt/locale/cashhand_pt.ts qt/locale/cashhand_ro_RO.ts \
-	qt/locale/cashhand_ru.ts qt/locale/cashhand_zh_TW.ts \
-	qt/paymentrequest.proto qt/res/icons/add.png \
-	qt/res/icons/address-book.png qt/res/icons/bitcoin.ico \
-	qt/res/icons/bitcoin.png qt/res/icons/bitcoin_testnet.ico \
+	qt/locale/cashhand_ru.ts qt/locale/cashhand_sk.ts \
+	qt/locale/cashhand_sv.ts qt/locale/cashhand_zh_CN.ts \
+	qt/locale/cashhand_zh_TW.ts qt/paymentrequest.proto \
+	qt/res/icons/add.png qt/res/icons/address-book.png \
+	qt/res/icons/bitcoin.ico qt/res/icons/bitcoin.png \
+	qt/res/icons/bitcoin_testnet.ico \
 	qt/res/icons/bitcoin_testnet.png qt/res/icons/browse.png \
 	qt/res/icons/clock1.png qt/res/icons/clock2.png \
 	qt/res/icons/clock3.png qt/res/icons/clock4.png \
@@ -1921,18 +1926,27 @@ EXTRA_DIST = leveldb $(am__append_18)
 
 # cashhand qt core #
 @ENABLE_QT_TRUE@QT_TS = \
+@ENABLE_QT_TRUE@  qt/locale/cashhand_bg.ts \
 @ENABLE_QT_TRUE@  qt/locale/cashhand_ca.ts \
+@ENABLE_QT_TRUE@  qt/locale/cashhand_cs.ts \
 @ENABLE_QT_TRUE@  qt/locale/cashhand_da.ts \
 @ENABLE_QT_TRUE@  qt/locale/cashhand_de.ts \
 @ENABLE_QT_TRUE@  qt/locale/cashhand_en.ts \
-@ENABLE_QT_TRUE@  qt/locale/cashhand_en_US.ts \
 @ENABLE_QT_TRUE@  qt/locale/cashhand_es.ts \
+@ENABLE_QT_TRUE@  qt/locale/cashhand_fi.ts \
 @ENABLE_QT_TRUE@  qt/locale/cashhand_fr_FR.ts \
 @ENABLE_QT_TRUE@  qt/locale/cashhand_it.ts \
 @ENABLE_QT_TRUE@  qt/locale/cashhand_ja.ts \
+@ENABLE_QT_TRUE@  qt/locale/cashhand_ko_KR.ts \
+@ENABLE_QT_TRUE@  qt/locale/cashhand_nl.ts \
+@ENABLE_QT_TRUE@  qt/locale/cashhand_pl.ts \
+@ENABLE_QT_TRUE@  qt/locale/cashhand_pt_BR.ts \
 @ENABLE_QT_TRUE@  qt/locale/cashhand_pt.ts \
 @ENABLE_QT_TRUE@  qt/locale/cashhand_ro_RO.ts \
 @ENABLE_QT_TRUE@  qt/locale/cashhand_ru.ts \
+@ENABLE_QT_TRUE@  qt/locale/cashhand_sk.ts \
+@ENABLE_QT_TRUE@  qt/locale/cashhand_sv.ts \
+@ENABLE_QT_TRUE@  qt/locale/cashhand_zh_CN.ts \
 @ENABLE_QT_TRUE@  qt/locale/cashhand_zh_TW.ts
 
 @ENABLE_QT_TRUE@QT_FORMS_UI = \

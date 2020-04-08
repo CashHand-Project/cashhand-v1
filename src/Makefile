@@ -456,16 +456,21 @@ am__qt_libbitcoinqt_a_SOURCES_DIST = qt/bitcoinaddressvalidator.cpp \
 	qt/forms/sendcoinsdialog.ui qt/forms/sendcoinsentry.ui \
 	qt/forms/signverifymessagedialog.ui \
 	qt/forms/transactiondescdialog.ui qt/cashhand.qrc \
-	qt/cashhand_locale.qrc qt/locale/cashhand_ca.ts \
+	qt/cashhand_locale.qrc qt/locale/cashhand_bg.ts \
+	qt/locale/cashhand_ca.ts qt/locale/cashhand_cs.ts \
 	qt/locale/cashhand_da.ts qt/locale/cashhand_de.ts \
-	qt/locale/cashhand_en.ts qt/locale/cashhand_en_US.ts \
-	qt/locale/cashhand_es.ts qt/locale/cashhand_fr_FR.ts \
+	qt/locale/cashhand_en.ts qt/locale/cashhand_es.ts \
+	qt/locale/cashhand_fi.ts qt/locale/cashhand_fr_FR.ts \
 	qt/locale/cashhand_it.ts qt/locale/cashhand_ja.ts \
+	qt/locale/cashhand_ko_KR.ts qt/locale/cashhand_nl.ts \
+	qt/locale/cashhand_pl.ts qt/locale/cashhand_pt_BR.ts \
 	qt/locale/cashhand_pt.ts qt/locale/cashhand_ro_RO.ts \
-	qt/locale/cashhand_ru.ts qt/locale/cashhand_zh_TW.ts \
-	qt/paymentrequest.proto qt/res/icons/add.png \
-	qt/res/icons/address-book.png qt/res/icons/bitcoin.ico \
-	qt/res/icons/bitcoin.png qt/res/icons/bitcoin_testnet.ico \
+	qt/locale/cashhand_ru.ts qt/locale/cashhand_sk.ts \
+	qt/locale/cashhand_sv.ts qt/locale/cashhand_zh_CN.ts \
+	qt/locale/cashhand_zh_TW.ts qt/paymentrequest.proto \
+	qt/res/icons/add.png qt/res/icons/address-book.png \
+	qt/res/icons/bitcoin.ico qt/res/icons/bitcoin.png \
+	qt/res/icons/bitcoin_testnet.ico \
 	qt/res/icons/bitcoin_testnet.png qt/res/icons/browse.png \
 	qt/res/icons/clock1.png qt/res/icons/clock2.png \
 	qt/res/icons/clock3.png qt/res/icons/clock4.png \
@@ -1259,13 +1264,13 @@ am__relativize = \
     dir1=`echo "$$dir1" | sed -e "$$sed_rest"`; \
   done; \
   reldir="$$dir2"
-ACLOCAL = ${SHELL} /home/lulworm/Desktop/cashhand/build-aux/missing aclocal-1.15
+ACLOCAL = ${SHELL} /home/lulworm/projects/cashhand2/build-aux/missing aclocal-1.15
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 0
 AR = /usr/bin/ar
-AUTOCONF = ${SHELL} /home/lulworm/Desktop/cashhand/build-aux/missing autoconf
-AUTOHEADER = ${SHELL} /home/lulworm/Desktop/cashhand/build-aux/missing autoheader
-AUTOMAKE = ${SHELL} /home/lulworm/Desktop/cashhand/build-aux/missing automake-1.15
+AUTOCONF = ${SHELL} /home/lulworm/projects/cashhand2/build-aux/missing autoconf
+AUTOHEADER = ${SHELL} /home/lulworm/projects/cashhand2/build-aux/missing autoheader
+AUTOMAKE = ${SHELL} /home/lulworm/projects/cashhand2/build-aux/missing automake-1.15
 AWK = gawk
 BDB_CPPFLAGS = 
 BDB_LIBS = -ldb_cxx-4.8
@@ -1286,13 +1291,13 @@ CC = gcc
 CCACHE = 
 CCDEPMODE = depmode=gcc3
 CFLAGS = -g -O2
-CLIENT_VERSION_BUILD = 0
+CLIENT_VERSION_BUILD = 1
 CLIENT_VERSION_IS_RELEASE = true
 CLIENT_VERSION_MAJOR = 1
-CLIENT_VERSION_MINOR = 2
-CLIENT_VERSION_REVISION = 4
+CLIENT_VERSION_MINOR = 0
+CLIENT_VERSION_REVISION = 1
 COMPARISON_TOOL_REORG_TESTS = 0
-COPYRIGHT_YEAR = 2018
+COPYRIGHT_YEAR = 2020
 CPP = gcc -E
 CPPFILT = /usr/bin/c++filt
 CPPFLAGS =  -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -DHAVE_QT5
@@ -1348,7 +1353,7 @@ LTLIBOBJS =
 LT_SYS_LIBRARY_PATH = 
 LUPDATE = /usr/lib/x86_64-linux-gnu/qt5/bin/lupdate
 MAINT = 
-MAKEINFO = ${SHELL} /home/lulworm/Desktop/cashhand/build-aux/missing makeinfo
+MAKEINFO = ${SHELL} /home/lulworm/projects/cashhand2/build-aux/missing makeinfo
 MAKENSIS = 
 MANIFEST_TOOL = :
 MINIUPNPC_CPPFLAGS = 
@@ -1369,10 +1374,10 @@ OTOOL64 =
 PACKAGE = cashhand
 PACKAGE_BUGREPORT = www.cashhand.info
 PACKAGE_NAME = CashHand Core
-PACKAGE_STRING = CashHand Core 1.0.0
+PACKAGE_STRING = CashHand Core 1.0.1
 PACKAGE_TARNAME = cashhand
 PACKAGE_URL = 
-PACKAGE_VERSION = 1.0.0
+PACKAGE_VERSION = 1.0.1
 PATH_SEPARATOR = :
 PKG_CONFIG = /usr/bin/pkg-config
 PKG_CONFIG_LIBDIR = 
@@ -1423,7 +1428,7 @@ TIFFCP =
 UIC = /usr/lib/x86_64-linux-gnu/qt5/bin/uic
 USE_QRCODE = 
 USE_UPNP = 
-VERSION = 1.0.0
+VERSION = 1.0.1
 WINDOWS_BITS = 
 WINDRES = 
 X11XCB_CFLAGS = 
@@ -1431,10 +1436,10 @@ X11XCB_LIBS =
 XGETTEXT = /usr/bin/xgettext
 ZMQ_CFLAGS = 
 ZMQ_LIBS = -lzmq
-abs_builddir = /home/lulworm/Desktop/cashhand/src
-abs_srcdir = /home/lulworm/Desktop/cashhand/src
-abs_top_builddir = /home/lulworm/Desktop/cashhand
-abs_top_srcdir = /home/lulworm/Desktop/cashhand
+abs_builddir = /home/lulworm/projects/cashhand2/src
+abs_srcdir = /home/lulworm/projects/cashhand2/src
+abs_top_builddir = /home/lulworm/projects/cashhand2
+abs_top_srcdir = /home/lulworm/projects/cashhand2
 ac_ct_AR = ar
 ac_ct_CC = gcc
 ac_ct_CXX = g++
@@ -1466,7 +1471,7 @@ host_vendor = pc
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /home/lulworm/Desktop/cashhand/build-aux/install-sh
+install_sh = ${SHELL} /home/lulworm/projects/cashhand2/build-aux/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -1921,18 +1926,27 @@ EXTRA_DIST = leveldb $(am__append_18)
 
 # cashhand qt core #
 QT_TS = \
+  qt/locale/cashhand_bg.ts \
   qt/locale/cashhand_ca.ts \
+  qt/locale/cashhand_cs.ts \
   qt/locale/cashhand_da.ts \
   qt/locale/cashhand_de.ts \
   qt/locale/cashhand_en.ts \
-  qt/locale/cashhand_en_US.ts \
   qt/locale/cashhand_es.ts \
+  qt/locale/cashhand_fi.ts \
   qt/locale/cashhand_fr_FR.ts \
   qt/locale/cashhand_it.ts \
   qt/locale/cashhand_ja.ts \
+  qt/locale/cashhand_ko_KR.ts \
+  qt/locale/cashhand_nl.ts \
+  qt/locale/cashhand_pl.ts \
+  qt/locale/cashhand_pt_BR.ts \
   qt/locale/cashhand_pt.ts \
   qt/locale/cashhand_ro_RO.ts \
   qt/locale/cashhand_ru.ts \
+  qt/locale/cashhand_sk.ts \
+  qt/locale/cashhand_sv.ts \
+  qt/locale/cashhand_zh_CN.ts \
   qt/locale/cashhand_zh_TW.ts
 
 QT_FORMS_UI = \

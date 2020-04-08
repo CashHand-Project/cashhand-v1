@@ -1,17 +1,26 @@
 <!DOCTYPE RCC><RCC version="1.0">
     <qresource prefix="/translations">
+        <file alias="bg">locale/cashhand_bg.qm</file>
         <file alias="ca">locale/cashhand_ca.qm</file>
+        <file alias="cs">locale/cashhand_cs.qm</file>
         <file alias="da">locale/cashhand_da.qm</file>
         <file alias="de">locale/cashhand_de.qm</file>
         <file alias="en">locale/cashhand_en.qm</file>
-        <file alias="en_US">locale/cashhand_en_US.qm</file>
         <file alias="es">locale/cashhand_es.qm</file>
+        <file alias="fi">locale/cashhand_fi.qm</file>
         <file alias="fr_FR">locale/cashhand_fr_FR.qm</file>
         <file alias="it">locale/cashhand_it.qm</file>
         <file alias="ja">locale/cashhand_ja.qm</file>
+        <file alias="ko_KR">locale/cashhand_ko_KR.qm</file>
+        <file alias="nl">locale/cashhand_nl.qm</file>
+        <file alias="pl">locale/cashhand_pl.qm</file>
         <file alias="pt">locale/cashhand_pt.qm</file>
+        <file alias="pt_BR">locale/cashhand_pt_BR.qm</file>
+        <file alias="sk">locale/cashhand_sk.qm</file>
+        <file alias="sv">locale/cashhand_sv.qm</file>
         <file alias="ro_RO">locale/cashhand_ro_RO.qm</file>
         <file alias="ru">locale/cashhand_ru.qm</file>
+        <file alias="zh_CN">locale/cashhand_zh_CN.qm</file>
         <file alias="zh_TW">locale/cashhand_zh_TW.qm</file>
     </qresource>
 </RCC>
