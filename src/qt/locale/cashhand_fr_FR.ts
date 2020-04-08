@@ -30,6 +30,10 @@
         <translation>Supprimer</translation>
     </message>
     <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Exporter l</translation>
+    </message>
+    <message>
         <source>&amp;Export</source>
         <translation>Exporter</translation>
     </message>
@@ -148,8 +152,8 @@
         <translation>Confirmer le cryptage du portefeuille</translation>
     </message>
     <message>
-        <source>CashHand will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CHNDs from being stolen by malware infecting your computer.</source>
-        <translation>CashHand va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos CHNDs d'un vol par un malware ayant infecté votre ordinateur. </translation>
+        <source>Cashhand will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CHNDs from being stolen by malware infecting your computer.</source>
+        <translation>Cashhand va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos CHNDs d'un vol par un malware ayant infecté votre ordinateur. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -207,16 +211,16 @@
         <translation>BIP 38 crypter</translation>
     </message>
     <message>
-        <source>Enter a CashHand Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Entrez une adresse CashHand que vous voulez crypter en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
+        <source>Enter a Cashhand Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Entrez une adresse Cashhand que vous voulez crypter en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresse :</translation>
     </message>
     <message>
-        <source>The CashHand address to sign the message with</source>
-        <translation>L'adresse CashHand avec laquelle signer le message</translation>
+        <source>The Cashhand address to sign the message with</source>
+        <translation>L'adresse Cashhand avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -247,8 +251,8 @@
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this CashHand address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse CashHand</translation>
+        <source>Sign the message to prove you own this Cashhand address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse Cashhand</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -267,12 +271,12 @@
         <translation>BIP 38 Décrypter</translation>
     </message>
     <message>
-        <source>The CashHand address the message was signed with</source>
-        <translation>L'adresse CashHand avec laquelle le message a été signé</translation>
+        <source>The Cashhand address the message was signed with</source>
+        <translation>L'adresse Cashhand avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified CashHand address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse CashHand renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified Cashhand address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse Cashhand renseignée</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -354,6 +358,10 @@
         <translation>Portefeuille</translation>
     </message>
     <message>
+        <source>Show general overview of wallet</source>
+        <translation>Vue d'ensemble du portefeuille</translation>
+    </message>
+    <message>
         <source>&amp;Send</source>
         <translation>Envoyer</translation>
     </message>
@@ -404,6 +412,14 @@
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation>Crypter les clés privées appartenant à votre portefeuille</translation>
+    </message>
+    <message>
+        <source>&amp;Backup Wallet...</source>
+        <translation>Sauvegarde du portefeuille...</translation>
+    </message>
+    <message>
+        <source>Backup wallet to another location</source>
+        <translation>Sauvegarder ailleurs le portefeuille </translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
@@ -470,6 +486,10 @@
         <translation>Ouvrir le fichier de configuration</translation>
     </message>
     <message>
+        <source>Show Automatic &amp;Backups</source>
+        <translation>Montrer les sauvegardes automatiques</translation>
+    </message>
+    <message>
         <source>Show automatically created wallet backups</source>
         <translation>Montrer les sauvegardes de portefeuille créées automatiquements</translation>
     </message>
@@ -478,8 +498,16 @@
         <translation>Adresses d'envoie</translation>
     </message>
     <message>
+        <source>Show the list of used sending addresses and labels</source>
+        <translation>Montrer la liste des adresses et libellés d'envoies utilisés</translation>
+    </message>
+    <message>
         <source>&amp;Receiving addresses...</source>
         <translation>Adresses de réception</translation>
+    </message>
+    <message>
+        <source>Show the list of used receiving addresses and labels</source>
+        <translation>Montrer la liste des adresses et libellés de réception utilisés</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
@@ -506,8 +534,8 @@
         <translation>&amp;Aide</translation>
     </message>
     <message>
-        <source>Send coins to a CashHand address</source>
-        <translation>Envoyer des pièces à une adresse CashHand</translation>
+        <source>Send coins to a Cashhand address</source>
+        <translation>Envoyer des pièces à une adresse Cashhand</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -518,16 +546,16 @@
         <translation>Afficher les masternodes</translation>
     </message>
     <message>
-        <source>Modify configuration options for CashHand</source>
-        <translation>Modifier les options de configuration pour CashHand</translation>
+        <source>Modify configuration options for Cashhand</source>
+        <translation>Modifier les options de configuration pour Cashhand</translation>
     </message>
     <message>
-        <source>Sign messages with your CashHand addresses to prove you own them</source>
-        <translation>Signer les messages avec votre adresse CashHand pour prouver qu'elles sont bien à vous.</translation>
+        <source>Sign messages with your Cashhand addresses to prove you own them</source>
+        <translation>Signer les messages avec votre adresse Cashhand pour prouver qu'elles sont bien à vous.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified CashHand addresses</source>
-        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse CashHand spécifié</translation>
+        <source>Verify messages to ensure they were signed with specified Cashhand addresses</source>
+        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse Cashhand spécifié</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -536,10 +564,6 @@
     <message>
         <source>Encrypt and decrypt private keys using a passphrase</source>
         <translation>Crypter et décrypter les clés privées en utilisant une phrase secrète</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to CashHand network</source>
-        <translation><numerusform>%n connection(s) au réseau CashHand</numerusform><numerusform>%n connection(s) au réseau CashHand</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -557,25 +581,9 @@
         <source>Up to date</source>
         <translation>A jour</translation>
     </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n heure</numerusform><numerusform>%n heures </numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n jours</numerusform><numerusform>%n jours</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n semaine</numerusform><numerusform>%n semaines</numerusform></translation>
-    </message>
     <message>
         <source>%1 and %2</source>
         <translation>%1 et %2</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n an</numerusform><numerusform>%n ans</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -591,7 +599,7 @@
     </message>
     <message>
         <source>Error</source>
-        <translation>Erreur </translation>
+        <translation>Erreur</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -719,6 +727,10 @@ Adresse : %4
         <translation>Copier l'adresse</translation>
     </message>
     <message>
+        <source>Copy label</source>
+        <translation>Copier le montant</translation>
+    </message>
+    <message>
         <source>Copy amount</source>
         <translation>Copier le montant</translation>
     </message>
@@ -842,8 +854,8 @@ Adresse : %4
         <translation>Modifier l'adresse d'envoi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid CashHand address.</source>
-        <translation>L'adresse entrée "%1" n'est pas une adresse CashHand valide</translation>
+        <source>The entered address "%1" is not a valid Cashhand address.</source>
+        <translation>L'adresse entrée "%1" n'est pas une adresse Cashhand valide</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -920,18 +932,6 @@ Adresse : %4
     <message>
         <source>0</source>
         <translation>0</translation>
-    </message>
-    <message>
-        <source>All Masternodes</source>
-        <translation>Toutes les masternodes</translation>
-    </message>
-    <message>
-        <source>Filter List:</source>
-        <translation>Liste de filtres :</translation>
-    </message>
-    <message>
-        <source>Filter masternode list</source>
-        <translation>Filtrer la liste des masternodes</translation>
     </message>
     <message>
         <source>Confirm masternode start</source>
@@ -1020,7 +1020,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
 </context>
 <context>
-    <name>ObfuscationConfig</name>
+    <name>PrivatesendConfig</name>
     <message>
         <source>Basic Privacy</source>
         <translation>Confidentialité de base</translation>
@@ -1038,11 +1038,11 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Veuillez sélectionner un niveau de confidentialité.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 50000 CHND</source>
+        <source>Use 2 separate masternodes to mix funds up to 10000 CHND</source>
         <translation>Utiliser 2 masternodes différentes pour mélanger les fonds jusqu'a 10000 CHND</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 50000 CHND</source>
+        <source>Use 8 separate masternodes to mix funds up to 10000 CHND</source>
         <translation>Utiliser 8 masternodes différentes pour mélanger les fonds jusqu'a 10000 CHND</translation>
     </message>
     <message>
@@ -1343,7 +1343,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Quantité</translation>
+        <translation>Quantité :</translation>
     </message>
     <message>
         <source>Amount:</source>
@@ -1419,7 +1419,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Copier la comission</translation>
+        <translation>Copier la commission</translation>
     </message>
     <message>
         <source>Copy after fee</source>
@@ -1461,8 +1461,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Payer à :</translation>
     </message>
     <message>
-        <source>The CashHand address to send the payment to</source>
-        <translation>L'adresse CashHand à laquelle envoyer le paiement</translation>
+        <source>The Cashhand address to send the payment to</source>
+        <translation>L'adresse Cashhand à laquelle envoyer le paiement</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1474,7 +1474,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Copié l'adresse depuis le presse-papier</translation>
+        <translation>Copier l'adresse depuis le presse-papier</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -1507,8 +1507,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Signer le message</translation>
     </message>
     <message>
-        <source>The CashHand address to sign the message with</source>
-        <translation>L</translation>
+        <source>The Cashhand address to sign the message with</source>
+        <translation>L'adresse Cashhand avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1520,7 +1520,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Copié l'adresse depuis le presse-papier</translation>
+        <translation>Copier l'adresse depuis le presse-papier</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -1535,16 +1535,16 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this CashHand address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse CashHand</translation>
+        <source>Sign the message to prove you own this Cashhand address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse Cashhand</translation>
     </message>
     <message>
-        <source>The CashHand address the message was signed with</source>
-        <translation>L'adresse CashHand avec laquelle le message a été signé</translation>
+        <source>The Cashhand address the message was signed with</source>
+        <translation>L'adresse Cashhand avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified CashHand address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse CashHand renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified Cashhand address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse Cashhand renseignée</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1629,9 +1629,49 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <source>Address</source>
         <translation>Adresse</translation>
     </message>
-    </context>
+    <message>
+        <source>Date and time that the transaction was received.</source>
+        <translation>Date et heure a laquelle la transaction fut reçue</translation>
+    </message>
+    <message>
+        <source>Type of transaction.</source>
+        <translation>Type de transaction.</translation>
+    </message>
+    <message>
+        <source>Destination address of transaction.</source>
+        <translation>Adresse destinataire de la transaction.</translation>
+    </message>
+    <message>
+        <source>Amount removed from or added to balance.</source>
+        <translation>Montant retiré ou ajouté a la balance.</translation>
+    </message>
+</context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>All</source>
+        <translation>Tous</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Aujourd'hui</translation>
+    </message>
+    <message>
+        <source>This week</source>
+        <translation>Cette semaine</translation>
+    </message>
+    <message>
+        <source>This month</source>
+        <translation>Ce mois</translation>
+    </message>
+    <message>
+        <source>Last month</source>
+        <translation>Le mois dernier</translation>
+    </message>
+    <message>
+        <source>This year</source>
+        <translation>Cette année</translation>
+    </message>
     <message>
         <source>Copy address</source>
         <translation>Copier l'adresse</translation>
@@ -1690,14 +1730,18 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Exporter</translation>
+        <translation>Exporter</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Exporter l</translation>
     </message>
     </context>
 <context>
     <name>cashhand-core</name>
     <message>
         <source>Error</source>
-        <translation>Erreur </translation>
+        <translation>Erreur</translation>
     </message>
     <message>
         <source>Information</source>

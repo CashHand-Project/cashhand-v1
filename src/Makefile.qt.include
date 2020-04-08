@@ -3,18 +3,27 @@ EXTRA_LIBRARIES += qt/libbitcoinqt.a
 
 # cashhand qt core #
 QT_TS = \
+  qt/locale/cashhand_bg.ts \
   qt/locale/cashhand_ca.ts \
+  qt/locale/cashhand_cs.ts \
   qt/locale/cashhand_da.ts \
   qt/locale/cashhand_de.ts \
   qt/locale/cashhand_en.ts \
-  qt/locale/cashhand_en_US.ts \
   qt/locale/cashhand_es.ts \
+  qt/locale/cashhand_fi.ts \
   qt/locale/cashhand_fr_FR.ts \
   qt/locale/cashhand_it.ts \
   qt/locale/cashhand_ja.ts \
+  qt/locale/cashhand_ko_KR.ts \
+  qt/locale/cashhand_nl.ts \
+  qt/locale/cashhand_pl.ts \
+  qt/locale/cashhand_pt_BR.ts \
   qt/locale/cashhand_pt.ts \
   qt/locale/cashhand_ro_RO.ts \
   qt/locale/cashhand_ru.ts \
+  qt/locale/cashhand_sk.ts \
+  qt/locale/cashhand_sv.ts \
+  qt/locale/cashhand_zh_CN.ts \
   qt/locale/cashhand_zh_TW.ts
 
 QT_FORMS_UI = \
