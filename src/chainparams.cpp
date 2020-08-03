@@ -45,15 +45,31 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 
 
 static Checkpoints::MapCheckpoints mapCheckpoints =
-    boost::assign::map_list_of(0, uint256("0x00000c545586f43b05943016ce7fa147f12d3184218a8ac69a19dbab3d177fa1"));
+    boost::assign::map_list_of
+        (0, uint256("0x00000c545586f43b05943016ce7fa147f12d3184218a8ac69a19dbab3d177fa1"))
+        (1000, uint256("0x0000031a10b2bdf9a3274087de50b80192e625b4752cc7a15ffb98ec69596e51"))
+        (5000, uint256("0x7d96525ca2c7f0962dcc4c4a5ea42ed3bcb856ef9918449675fb90b6050927a5"))
+        (10000, uint256("0xc6a45b7617942fabbd4d2a4ae952a6458d5039cfb2204e94f4475d33cc0fce49"))
+        (20000, uint256("0x7cebd2b2fae8e891958e1e362e396e846d58933ea4c5ebba49111b6bdff00ffe"))
+        (50000, uint256("0x5519420ad34442b2d903559550077bf848205184d53df3389802c3c86c557c5e"))
+        (80000, uint256("0xb53ab1e340baddf44930a5a9cc76c7b3d90575356e6b3563858e24a3203f2fc3"))
+        (110000, uint256("0xd33bf0b56a798ba09d6e0a32a73347b17145c37462a8d8ff01e74677e8e7f947"))
+        (120000, uint256("0xdac9ef39ddbfd61de1b2332b9232ad39a7e1abe7c91a25219f7cebc429de246b"))
+        (135000, uint256("0x6b26882c772d20cdbcfd332df4cb33061262d43b974c37955037914732a11ac7"))
+        (150200, uint256("0x712c53db68d2f69a0721bad37408635eadf35661bd2ff673a81354c8b41905a8"))
+        (171000, uint256("0x5579748bfac33255491a4397aac417152879cc5c3f0ee123a03a0da1ec040d14"))
+        (193000, uint256("0x9b9475be8e634ac65f199d77b4eb25197ef75557af81e128d96ac922afc3c36a"))
+        (213000, uint256("0xaef923e13acefdf883894bef01bffa5fbfa2ae539f837a8835aabce8cfc2aefb"))
+        (230000, uint256("0xfa06a06fedecc8801388c9a94db12742f1a8fb9866bdd49432dd347ee1707b65"))
+        (234894, uint256("0xe5cb4d6d0aa5e9b254fb23f9745028b29be277c5744b0a89db4a42dc3c6bebb8"));
 
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1582137600, // * UNIX timestamp of last checkpoint block
-    0,          // * total number of transactions between genesis and last checkpoint
+    1596449231, // * UNIX timestamp of last checkpoint block
+    470845,          // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
-    200         // * estimated number of transactions per day after checkpoint
+    1440         // * estimated number of transactions per day after checkpoint
 };
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of(0, uint256("0x00000c545586f43b05943016ce7fa147f12d3184218a8ac69a19dbab3d177fa1"));
@@ -95,6 +111,7 @@ public:
         nTargetSpacing = 1 * 60; 
         nLastPOWBlock = 1000;
         nMaturity = 150;
+        nMaxMoneyOut = 200000000 * COIN;
        // nNewMaturity = 150;
        // nProtocol_switch = 1001;
         nModifierUpdateBlock = 1;
@@ -120,10 +137,10 @@ public:
 
         vSeeds.push_back(CDNSSeedData("nodesforall.com", "node1.nodesforall.com"));
         vSeeds.push_back(CDNSSeedData("nodesforall.com", "node2.nodesforall.com"));
-	vSeeds.push_back(CDNSSeedData("nodesforall.com", "node3.nodesforall.com"));
-	vSeeds.push_back(CDNSSeedData("nodesforall.com", "node4.nodesforall.com"));
+	    vSeeds.push_back(CDNSSeedData("nodesforall.com", "node3.nodesforall.com"));
+	    vSeeds.push_back(CDNSSeedData("nodesforall.com", "node4.nodesforall.com"));
         vSeeds.push_back(CDNSSeedData("nodesforall.com", "node5.nodesforall.com"));
-	vSeeds.push_back(CDNSSeedData("nodesforall.com", "node6.nodesforall.com"));
+	    vSeeds.push_back(CDNSSeedData("nodesforall.com", "node6.nodesforall.com"));
 
 
 
@@ -179,6 +196,7 @@ public:
         nTargetSpacing = 1 * 60;  // CashHand: 1 minute
         nLastPOWBlock = 200;
         nMaturity = 15;
+        nMaxMoneyOut = 200000000 * COIN;  // Limited Maximum money to 200,000,000
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1582137600;
         genesis.nNonce = 451031;

@@ -1636,9 +1636,31 @@ int64_t GetBlockValue(int nHeight)
 		nSubsidy = 110 * COIN;
 	} else if (nHeight >= 40400 && nHeight < 55000) {
 		nSubsidy = 130 * COIN;
-	} else if (nHeight >= 55000) {
+	} else if (nHeight >= 55000 && nHeight < 262000) {
 		nSubsidy = 100 * COIN;
+	} else if (nHeight >= 262000 && nHeight < 434800) {
+		nSubsidy = 50 * COIN;
+	} else if (nHeight >= 434800 && nHeight < 564400) {
+		nSubsidy = 25 * COIN;
+	} else if (nHeight >= 564400 && nHeight < 694000) {
+		nSubsidy = 20 * COIN;
+	} else if (nHeight >= 694000 && nHeight < 823600) {
+		nSubsidy = 15 * COIN;
+	} else if (nHeight >= 823600 && nHeight < 953200) {
+		nSubsidy = 10 * COIN;
+	} else if (nHeight >= 953200) {
+		nSubsidy = 5 * COIN;
 	}
+
+    // Check if we reached the coin max supply.
+    int64_t nMoneySupply = chainActive.Tip()->nMoneySupply;
+
+      if (nMoneySupply + nSubsidy >= Params().MaxMoneyOut())
+        nSubsidy = Params().MaxMoneyOut() - nMoneySupply;
+
+    if (nMoneySupply >= Params().MaxMoneyOut())
+      nSubsidy = 0;
+
     return nSubsidy;
 }
 
@@ -5323,9 +5345,9 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
 
 int ActiveProtocol()
 {
-   if (IsSporkActive(SPORK_14_NEW_PROTOCOL_ENFORCEMENT))
+   if (IsSporkActive(SPORK_14_NEW_PROTOCOL_ENFORCEMENT) || chainActive.Tip()->nHeight > 241995) {
             return MIN_PEER_PROTO_VERSION_AFTER_ENFORCEMENT;
-
+   }
     
     // SPORK_15 will be used for future release.
     /*

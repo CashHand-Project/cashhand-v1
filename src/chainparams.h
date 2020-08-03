@@ -72,6 +72,7 @@ public:
     int64_t Interval() const { return nTargetTimespan / nTargetSpacing; }
     int LAST_POW_BLOCK() const { return nLastPOWBlock; }
     int COINBASE_MATURITY() const { return nMaturity; }
+    CAmount MaxMoneyOut() const { return nMaxMoneyOut; }
     //int NEW_COINBASE_MATURITY() const { return nNewMaturity; }
     //int PROTOCOL_SWITCH() const { return nProtocol_switch; }
 	int ModifierUpgradeBlock() const { return nModifierUpdateBlock; }
@@ -109,6 +110,7 @@ protected:
     int nLastPOWBlock;
     int nMasternodeCountDrift;
     int nMaturity;
+    CAmount nMaxMoneyOut;
    // int nNewMaturity;
    // int nProtocol_switch;
 	int nModifierUpdateBlock;
